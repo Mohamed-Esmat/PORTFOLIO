@@ -1,0 +1,642 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+.center
+{
+    width: 70%;
+    margin: auto;
+}
+.home
+{
+    height: 100vh;
+    overflow: auto;
+    background-image: url(../img/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.home_backgroundcolor
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar_parent
+{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.home .home_backgroundcolor .navbar .nav a
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.home .home_backgroundcolor .navbar .nav a:hover
+{
+    color: #ff305b;
+    transition-property: color;
+    transition-duration: .5s;
+}
+.home .home_backgroundcolor .navbar p
+{
+    float: left;
+    font-family:'Roboto' , sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #ff305b;
+    padding-left: 35px;
+}
+.home .home_backgroundcolor .navbar .nav ul li
+{
+    list-style-type: none;
+    float: left;
+}
+.home .home_backgroundcolor .navbar .nav
+{
+    float: right;
+}
+.clr
+{
+    clear: both;
+}
+.parent_of_hello
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hello
+{
+    position: absolute;
+    text-align: center;
+    
+}
+.hello h3
+{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.hello h1
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 77px;
+    color: #ff305b;
+    padding: 15px 0 15px 0;
+}
+.carry_h4
+{
+    overflow: hidden;
+    width: 48%;
+    margin: auto;
+    position: relative;
+}
+.hello h4
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    color: #fff;
+    animation: mohamed 1s .5s infinite ease-in-out;
+}
+
+.carry_h4::after
+{
+    content: "";
+    position:absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    
+}
+@keyframes mohamed
+{
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(115px);}
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.contaner
+{
+    width: 70%;
+    margin: auto;
+    margin-top:50px ;
+    padding: 70px 0;
+}
+.image_border
+{
+    float: left;
+    border: 8px solid #555;
+    border-radius: 8px;
+}
+.image
+{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.image img
+{
+    width: 100%;
+}
+.image_1
+{
+    position: relative;
+}
+
+.position_image_div
+{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.57);
+    bottom: 0;
+    left: 0;
+    transition: height .5s ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image_1:hover .position_image_div
+{
+    height: 100%;
+}
+.sawar
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.sawar ul li
+{
+    float: left;
+}
+.sawar img
+{
+    width: 20px;
+    margin: 0 5px;
+}
+.txt
+{
+    float: right;
+    width: 57%;
+}
+.txt h2{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 22px;
+    color: #333;
+    margin-bottom: 25px;
+}  
+.txt h2::before
+{
+    content: "I";
+    color: #ff305b;
+}
+.txt .line
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    padding-right: 30px;
+}
+
+.txt_protofolio1
+{
+    width: 40%;
+    float: left;
+}
+.txt_protofolio1 p
+{
+    margin-bottom: 25px;
+}
+.txt_protofolio2
+{
+    width: 60%;
+    float: left;
+}
+.txt_protofolio2 p
+{
+    margin-bottom: 25px;
+}
+.one span
+{
+    color: #333;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.one
+{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555;
+}
+.txt .btn
+{
+    padding: 15px 25px;
+    background-color: #ff305b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+    transition: background-color .5s ease-in-out;
+}
+.btn:hover
+{
+    background-color: #EC2403;
+}
+.txt .btn1
+{
+    margin-right: 5px;
+}
+.txt .btn2
+{
+    margin-left: 5px;
+}
+.txt .btn img
+{
+    padding-top: 8px;
+    transition: background-color .5s ease-in-out;
+}
+.clr
+{
+    clear: both;
+}
+.services
+{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+.services_contaner
+{
+    width: 80%;
+    font-family: sans-serif;
+    padding: 100px 0 54px 0;
+}
+.services_title,.title
+{
+    text-align: center;
+}
+.title h3
+{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 25px;
+}
+.line_under_parent
+{
+    width: 15%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.line_under
+{
+    background-color: #ff305b;
+    width: 100%;
+    height: 1px;
+    border-radius: 2px;
+    position: relative;
+}
+.line_under::before
+{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    left: 25%;
+    top: 550%;
+    background-color: #ff305b;
+}
+.line_under::after
+{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 0.5px;
+    left: 25%;
+    bottom: 550%;
+    background-color: #ff305b;
+}
+.ser
+{
+    display: flex;
+    justify-content: space-around;
+}
+.services_items_contaner
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.services_items
+{
+    width: 22%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    transition:background-color .3s ease-in-out ,box-shadow .3s ease-in-out ;
+}
+.services_items:hover
+{
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 15%);;
+}
+.services_items:hover img
+{
+    width: 21%;
+}
+.services_items img
+{
+    width: 17%;
+    margin: 15px 0;
+    transition: width .3s ease-in-out;
+}
+.services_items h4
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.services_items p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555;
+}
+.Portfolio
+{
+    padding: 100px 0 70px 0;
+}
+.cont
+{
+    width: 80%;
+    margin:auto ;
+}
+.our_Portfolio_parent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+}
+.our_Portfolio
+{
+    width: 100%;
+    text-align: center;
+}
+.all
+{
+    width: 30%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.color_for_ALL
+{
+    color: #ff305b;
+}
+.color_for_list
+{
+    color: #555;
+}
+.our_Portfolio_parent ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_items
+{
+    margin-top: 25px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_one
+{
+    display: flex;
+    justify-content: space-around;
+}
+.image_div_hover
+{
+    text-align: center;
+    width: 95%;
+    position: relative;
+}
+.item_one img
+{
+    width: 100%;
+    border-radius: 1px;
+}
+.hover
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+.image_div_hover:hover .hover
+{
+    opacity: 1;
+}
+.hover_child
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.hover_child_img
+{
+    position: absolute;
+    width: 6%;
+    height: 10%;
+    right: 4%;
+    bottom: 3%;
+
+}
+.team
+{
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-around;
+}
+.team_child
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 60px 0;
+}
+.team_child2
+{
+    text-align: center;
+    padding: 30px;
+}
+.team h5
+{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: #333;
+    margin: 15px 0;
+}
+.team p
+{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555;
+}
+.team img
+{
+    width: 30px;
+}
+.feedback
+{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.cont_feedback
+{
+    width: 70%;
+}
+.carry
+{
+    background-color: #F1F1F1;
+    width: 66%;
+    margin: auto;
+    padding: 50px 20px 80px;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    
+}
+.red_rotate
+{
+    background-color: #ff305b;
+    width: 320px;
+    height: 335px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -75%;
+    left: -22%;
+}
+.div_content_parent
+{
+    position: relative;
+    display: flex;
+}
+.div_content_child
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sora
+{
+    width: 15%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.sora img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.text_content
+{
+    width: 75%;
+    font-family: sans-serif;
+}
+.text_content h4
+{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    color: #333;
+}
+.text_content p
+{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555;
+}
+.text_content .united
+{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height:25px;
+    color: #555;
+    margin: 5px 0;
+}
